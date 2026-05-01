@@ -1,3 +1,4 @@
+import Banner from './components/Banner.jsx'
 import Button from './components/Button.jsx'
 import Greeting from './components/Greeting.jsx'
 import NavBar from './components/NavBar.jsx'
@@ -17,6 +18,7 @@ function App() {
             Contact Me
           </Button>
         </section>
+        <Banner />
       </main>
     </div>
   )
