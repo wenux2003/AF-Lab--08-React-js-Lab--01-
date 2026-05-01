@@ -3,6 +3,7 @@ import Button from './components/Button.jsx'
 import Card from './components/Card.jsx'
 import Greeting from './components/Greeting.jsx'
 import NavBar from './components/NavBar.jsx'
+import Testimonial from './components/Testimonial.jsx'
 import heroImage from './assets/hero.png'
 import './App.css'
 
@@ -30,6 +31,17 @@ function App() {
             image={heroImage}
             title="Component Design"
             description="Reusable React components for neat, responsive user interfaces."
+          />
+        </section>
+        <section className="section" id="reviews">
+          <div className="section-heading">
+            <p className="eyebrow">Reviews</p>
+            <h2>Customer testimonial</h2>
+          </div>
+          <Testimonial
+            photo={heroImage}
+            quote="This React page is simple, clear, and easy to understand."
+            name="A happy customer"
           />
         </section>
       </main>
