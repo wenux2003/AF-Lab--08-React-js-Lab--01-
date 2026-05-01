@@ -1,6 +1,7 @@
 import Banner from './components/Banner.jsx'
 import Button from './components/Button.jsx'
 import Card from './components/Card.jsx'
+import Footer from './components/Footer.jsx'
 import Greeting from './components/Greeting.jsx'
 import NavBar from './components/NavBar.jsx'
 import Testimonial from './components/Testimonial.jsx'
@@ -45,6 +46,7 @@ function App() {
           />
         </section>
       </main>
+      <Footer />
     </div>
   )
 }
